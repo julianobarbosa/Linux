@@ -1,6 +1,6 @@
 # Package Install
 ```console
-yum install bash-completion bash-completion-extras mlocate wget
+yum install bash-completion bash-completion-extras mlocate wget tmux
 ```
 # PowerShell
 ## Register the Microsoft RedHat repository
