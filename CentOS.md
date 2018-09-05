@@ -38,6 +38,18 @@ systemctl restart winbind
 systemctl enable winbind
 ```
 
+## SSH
+```console
+vim /etc/ssh/sshd_config
+```
+AllowGroups linuxadmins
+
+## SUDO
+#### visudo
+```console
+%linuxadmins ALL=(ALL) ALL
+```
+
 ## CentOS
 ### ifconfig
 ```console
