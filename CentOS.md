@@ -1,7 +1,25 @@
 # Package Install
 ```console
-yum install bash-completion bash-completion-extras mlocate wget tmux
+yum install bash-completion bash-completion-extras mlocate wget
 ```
+
+# Python
+```console
+sudo yum -y install gcc gcc-c++
+sudo yum -y install zlib zlib-devel
+sudo yum -y install libffi-devel
+sudo yum install readline-devel openssl-devel bzip2-devel
+```
+# neovim
+```console
+sudo yum -y install epel-release
+sudo curl -o /etc/yum.repos.d/dperson-neovim-epel-7.repo https://copr.fedorainfracloud.org/coprs/dperson/neovim/repo/epel-7/dperson-neovim-epel-7.repo
+sudo yum -y install neovim
+sudo yum install python2-pip
+cd ~
+mkdir -p .config/nvim
+```
+
 # PowerShell
 ## Register the Microsoft RedHat repository
 ```console
@@ -37,7 +55,6 @@ winbind use default domain = yes
 systemctl restart winbind
 systemctl enable winbind
 ```
-
 ## SSH
 ```console
 vim /etc/ssh/sshd_config
