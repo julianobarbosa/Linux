@@ -2,6 +2,12 @@
 ```console
 yum install bash-completion bash-completion-extras mlocate wget
 ```
+
+# Samba
+```console
+yum install samba samba-client samba-common
+```
+
 # Apache
 ```console
 sudo yum install httpd
