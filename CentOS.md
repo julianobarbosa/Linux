@@ -2,6 +2,12 @@
 ```console
 yum install bash-completion bash-completion-extras mlocate wget
 ```
+# MySQL
+```console
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm\
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+yum update
+ ```
 
 # Python
 ```console
@@ -90,3 +96,9 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
 ## Verificar documentacao Combo de Servidores no file server
+
+# Reference
+## MySQL
+```console
+https://www.linode.com/docs/databases/mysql/how-to-install-mysql-on-centos-7/
+```
