@@ -19,6 +19,7 @@ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm\
 sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
 yum update
 yum install mysql-server
+systemctl start mysqld
  ```
 
 # Python
