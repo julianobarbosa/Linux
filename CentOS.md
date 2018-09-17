@@ -2,6 +2,11 @@
 ```console
 yum install bash-completion bash-completion-extras mlocate wget
 ```
+# Apache
+```console
+sudo yum install httpd
+```
+
 # MySQL
 ```console
 wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm\
