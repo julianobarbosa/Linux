@@ -13,6 +13,11 @@ yum install samba samba-client samba-common
 sudo yum install httpd
 ```
 
+# PHP
+```console
+yum -y install php
+```
+
 # MySQL
 ```console
 wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm\
