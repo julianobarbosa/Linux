@@ -18,6 +18,9 @@ sudo yum install httpd
 yum -y install php
 ```
 
+# ProFTPd
+https://linuxconfig.org/setup-secure-proftpd-server-on-centos-7-with-tls
+
 # MySQL
 ```console
 wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm\
