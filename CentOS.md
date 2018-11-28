@@ -14,6 +14,7 @@ sudo yum install httpd
 ```
 
 # PHP
+https://www.tecmint.com/install-php-5-6-on-centos-7/
 ```console
 yum -y install php
 ```
